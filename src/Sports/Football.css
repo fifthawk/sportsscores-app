@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: hsl(189, 36%, 70%);
+    width: 30em;
+    height: 10em;
+    margin: auto;
+    border-radius: 5em;
+    margin-bottom: 1em;
+    padding: 1em;
+
+}
+
+img {
+    width: 7em;
+    height: 7em;
+    border-radius: 3em;
+    box-shadow: hsl(212, 86%, 14%) 1em 2em 1.88em;
+}
+
+img:hover {
+    box-shadow: hsl(212, 97%, 61%) 1em 2em 1.88em;
+}
+
+.homeContainer {
+    order: 1;
+    padding: 1em;
+    
+}
+
+.awayContainer {
+    padding: 1em;
+}

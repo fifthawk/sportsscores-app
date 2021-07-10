@@ -1,0 +1,50 @@
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 30em;
+    height: 10em;
+    margin: auto;
+    border-radius: 5em;
+    margin-bottom: 1em;
+}
+
+.logo {
+    height: 7em;
+    width: 7em;
+    background-color: hsl(180, 4%, 35%);
+    border-radius: 10%;
+}
+
+
+.teamScore1 {
+    order: -2;
+    padding: 2em 1em 2em 1em;
+    
+}
+
+.teamScore2 {
+    padding: 2em 1em 2em 1em;
+    
+
+}
+
+.versus {
+    text-align: center;
+    padding: 2em 1em 2em 1em;
+}
+
+
+
+
+
+
+
+
